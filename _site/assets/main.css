@@ -97,12 +97,13 @@ ul li { margin-bottom: 15px; }
 
 .container { max-width: 1170px; margin: 0px auto; padding: 0 15px; }
 
-.hero { background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(/assets/img/jamie2.jpg) no-repeat left center; background-size: cover; min-height: 450px; display: flex; align-items: center; justify-content: flex-start; margin-top: -100px; }
+.hero { background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(/assets/img/jamie2.jpg) no-repeat left center; background-size: cover; min-height: 400px; display: flex; align-items: center; justify-content: flex-start; margin-top: -100px; }
 @media (min-width: 400px) { .hero { min-height: 320px; background-size: 165%; } }
 @media (min-width: 650px) { .hero { min-height: 500px; background-size: 120%; margin-top: 0; } }
 @media (min-width: 900px) { .hero { min-height: 680px; background-size: 110%; } }
 .hero .opening-speechmarks { display: block; max-width: 50px; margin: 0 20px; }
-.hero .hero-copy { display: none; width: 980px; max-width: 100%; margin: 0px auto; }
+.hero .hero-copy { display: none; width: 1140px; max-width: 100%; margin: 0px auto; }
+.hero .hero-copy h1 { color: #fff; text-shadow: 0 0 5px rgba(0, 0, 0, 0.3); }
 @media (min-width: 650px) { .hero .hero-copy { display: flex; align-items: center; } }
 .hero .hero-copy blockquote { width: 100%; color: #fff; padding: 20px 0; font-size: 15px; font-weight: 300; line-height: 1.4; font-style: italic; }
 @media (min-width: 900px) { .hero .hero-copy blockquote { font-size: 24px; } }

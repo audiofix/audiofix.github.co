@@ -17,7 +17,7 @@
 .hero {
   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.1)), url(/assets/img/jamie2.jpg) no-repeat left center;
   background-size: cover;
-  min-height: 450px;
+  min-height: 400px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -42,9 +42,13 @@
   }
   .hero-copy {
     display: none;
-    width: 980px;
+    width: 1140px;
     max-width: 100%;
     margin: 0px auto;
+    h1 {
+      color: #fff;
+      text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    }
     @include for-tablet-portrait-up {
       display: flex;
       align-items: center;
