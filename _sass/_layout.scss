@@ -1,0 +1,293 @@
+.brand {
+  h2 {
+    font-size: 2em;
+    font-weight: 300;
+    letter-spacing: 3px;
+  }
+  h3 {
+    font-weight: 300;
+    color: #777;
+  }
+}
+.container {
+  max-width: 1170px;
+  margin: 0px auto;
+  padding: 0 15px;
+}
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.1)), url(/assets/img/jamie2.jpg) no-repeat left center;
+  background-size: cover;
+  min-height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: -100px;
+  @include for-big-phones-up {
+    min-height: 320px;
+    background-size: 165%;
+  };
+  @include for-tablet-portrait-up {
+    min-height: 500px;
+    background-size: 120%;
+    margin-top: 0;
+  };
+  @include for-tablet-landscape-up {
+    min-height: 680px;
+    background-size: 110%;
+  };
+  .opening-speechmarks {
+    display: block;
+    max-width: 50px;
+    margin: 0 20px;
+  }
+  .hero-copy {
+    display: none;
+    width: 980px;
+    max-width: 100%;
+    margin: 0px auto;
+    @include for-tablet-portrait-up {
+      display: flex;
+      align-items: center;
+    };
+    @include for-tablet-landscape-up {
+    };
+    @include for-desktop-up {
+    };
+    blockquote {
+      width: 100%;
+      color: #fff;
+      padding: 20px 0;
+      font-size: 15px;
+      font-weight: 300;
+      line-height: 1.4;
+      font-style: italic;
+      @include for-tablet-landscape-up {
+        font-size: 24px;
+      };
+      @include for-desktop-up {
+        padding-left: 5px;
+      };
+    }
+  }
+}
+#about {
+  padding-top: 60px;
+  // .container {
+  //   h1, p {
+  //     margin-left: auto;
+  //     margin-right: auto;
+  //   }
+  // }
+  h1 {
+    padding-bottom: 1em;
+    max-width: 670px;
+  }
+}
+#jamie {
+  padding-top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  @include for-tablet-landscape-up {
+    flex-direction: row-reverse;
+  };
+  align-items: stretch;
+  .jamie_copy,
+  .jamie_img {
+    flex: 0 0 100%;
+    min-height: 400px;
+    @include for-tablet-landscape-up {
+      flex: 0 0 50%;
+    };
+  }
+  .jamie_copy {
+    padding: 30px 10px;
+    background: $background-grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    @include for-tablet-landscape-up {
+      padding: 60px 80px;
+    };
+    h3 {
+      font-size: 14px;
+      letter-spacing: 0.5px;
+      margin-bottom: 15px;
+      color: #777;
+    }
+    h2 {
+      margin-top: 0;
+      margin-bottom: 18px;
+      font-size: 38px;
+      color: $brand-color;
+    }
+  }
+  .jamie_img {
+    background: url(/assets/img/jamie1.jpg) no-repeat center center;
+    background-size: cover;
+  }
+}
+#service_before {
+  background: url(/assets/img/1210_before.jpg) no-repeat center center;
+  background-size: cover;
+}
+#service_after {
+  background: url(/assets/img/1210_after.jpg) no-repeat center center;
+  background-size: cover;
+}
+#repairs,
+#testimonials {
+  background-color: #f8f8f8;
+}
+#repair_before {
+  background: url(/assets/img/repair_before.jpg) no-repeat center center;
+  background-size: cover;
+}
+#repair_after {
+  background: url(/assets/img/repair_after.jpg) no-repeat center center;
+  background-size: cover;
+}
+#gallery_1 {
+  background: url(/assets/img/gallery1.jpg) no-repeat center center;
+  background-size: cover;
+}
+#gallery_2 {
+  background: url(/assets/img/gallery2.jpg) no-repeat center center;
+  background-size: cover;
+}
+#gallery_3 {
+  background: url(/assets/img/gallery3.jpg) no-repeat center center;
+  background-size: cover;
+}
+#gallery_4 {
+  background: url(/assets/img/gallery4.jpg) no-repeat center center;
+  background-size: cover;
+}
+#gallery_5 {
+  background: url(/assets/img/gallery5.jpg) no-repeat center center;
+  background-size: cover;
+}
+#gallery_6 {
+  background: url(/assets/img/gallery6.jpg) no-repeat center center;
+  background-size: cover;
+}
+#gallery_7 {
+  background: url(/assets/img/gallery7.jpg) no-repeat center center;
+  background-size: cover;
+}
+#gallery_8 {
+  background: url(/assets/img/gallery8.jpg) no-repeat center center;
+  background-size: cover;
+}
+#gallery_9 {
+  background: url(/assets/img/gallery9.jpg) no-repeat center center;
+  background-size: cover;
+}
+#gallery_10 {
+  background: url(/assets/img/gallery10.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.copy-quote {
+  color: #333;
+  font-size: 22px;
+  line-height: 1.5;
+  font-family: 'Cormorant Garamond', 'Garamond', 'Georgia', serif;
+  font-style: italic;
+  padding: 15px 0;
+  border-top: 1px solid $tint;
+  border-bottom: 1px solid $tint;
+  margin: 15px 0 30px;
+  @include for-tablet-landscape-up {
+    float: right;
+    max-width: 500px;
+    margin: 15px 30px 15px 60px;
+  }
+  footer {
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: right;
+    font-style: normal;
+  }
+}
+.deck {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.card {
+  flex: 0 0 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  background: #f8f8f8;
+  padding: 20px;
+  margin-bottom: 30px;
+  min-height: 320px;
+  @include for-tablet-landscape-up {
+    flex: 0 0 48%;
+  };
+  .card_heading {
+    flex: 0;
+    h2 {
+      font-size: 20px;
+      color: $brand-color;
+      padding-bottom: 10px;
+    }
+    h3 {
+      font-size: 16px;
+      color: $brand-color;
+      padding-bottom: 10px;
+    }
+  }
+  .card_copy {
+    flex: 1;
+    p {
+      font-size: 16px;
+    }
+  }
+  .card_link {
+    flex: 0;
+    margin: 0 0 0 auto;
+    padding: 8px 14px;
+    background: $brand-color;
+    color: #fff;
+  }
+}
+.image-card {
+  .card_heading h2 {
+    font-size: 20px;
+    display: inline-block;
+    color: #fff;
+    background: $brand-color;
+    padding: 10px;
+  }
+}
+.quote_card {
+  display: flex;
+  justify-content: center;
+  background: #fff;
+  font-size: 22px;
+  line-height: 1.3;
+  font-family: 'Cormorant Garamond', 'Garamond', 'Georgia', serif;
+  font-style: italic;
+  border-top: 1px solid $tint;
+  border-bottom: 1px solid $tint;
+  p {
+    margin-top: 10px;
+    text-align: right;
+    font-style: normal;
+  }
+}
+#contact {
+  border-top: 1px solid $tint;
+  padding-bottom: 0;
+}
+.contact-card {
+  .card_copy {
+    p {
+      font-size: 18px;
+    }
+  }
+}

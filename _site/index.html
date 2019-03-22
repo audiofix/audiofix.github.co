@@ -1,8 +1,42 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i" rel="stylesheet">
+  <link rel="stylesheet" href=http://localhost:4000/assets/main.css>
+  <title>Audiofix</title>
 
-<div class="hero">
+  
+
+</head>
+<body><header class="site-header">
+
+  <div class="container navbar">
+    <div class="brand">
+      <a href=http://localhost:4000/>
+        <img id="header_logo" src=http://localhost:4000/assets/img/logotype_white.svg alt="Audiofixings" />
+      </a>
+      <button class="hamburger hamburger--spin" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+    </div>
+    <nav>
+      <a href="#about" class="smooth-scroll">About</a>
+      <a href="#service" class="smooth-scroll">Service</a>
+      <a href="#repairs" class="smooth-scroll">Repairs</a>
+      <a href="#gallery" class="smooth-scroll">Gallery</a>
+      <a href="#testimonials" class="smooth-scroll">Testimonials</a>
+      <a class="btn" href="#contact" class="smooth-scroll">Contact Us</a>
+    </nav>
+
+  </div>
+
+</header>
+<main>
+      <div class="hero">
   <div class="hero-copy">
 
   </div>
@@ -266,7 +300,7 @@ layout: default
         </div>
         <div class="card_copy">
           <br />
-          <p>Email: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email }}</a></p>
+          <p>Email: <a href="mailto:jamie@audiofix.co" target="_blank">jamie@audiofix.co</a></p>
           <p>Phone: <a href="tel:++447814427499‬">+44 7814 427499‬</a></p>
           <p>Facebook: <a href="https://fb.me/audiofixbristol" target="_blank">fb.me/audiofixbristol</a></p>
           <p>Instagram: <a href="https://www.instagram.com/audiofixbristol/" target="_blank">@audiofixbristol</a></p>
@@ -275,3 +309,38 @@ layout: default
     </div>
   </div>
 </section>
+
+    </main><footer class="site-footer">
+
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-column column-left">
+        <a href=http://localhost:4000/>
+          <img src=http://localhost:4000/assets/img/full_logo.svg alt="Alan Mead. Coach, Trainer" />
+        </a>
+      </div>
+      <div class="footer-column column-middle">
+        <li><a href="#about" class="smooth-scroll">About</a></li>
+        <li><a href="#service" class="smooth-scroll">Service</a></li>
+        <li><a href="#repairs" class="smooth-scroll">Repairs</a></li>
+        <li><a href="#gallery" class="smooth-scroll">Gallery</a></li>
+        <li><a href="#testimonials" class="smooth-scroll">Testimonials</a></li>
+        <li><a class="btn" href="#contact" class="smooth-scroll">Contact Us</a></li>
+      </div>
+      <div class="footer-column column-right footer-footer">
+        <p>Header photo by <a href="https://www.facebook.com/DirtySouthPhotography/" target="_blank">Dirty South Photography</a>.</p>
+        <p>Jamie photo by <a href="https://www.facebook.com/Bubimages/" target="_blank">Bubimages</a>.</p>
+
+        <p>Made with &hearts; in the Channel Islands.</p>
+        <p>&copy; Audiofix 2019</p>
+      </div>
+    </div>
+  </div>
+
+</footer>
+</body>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+  <script src="./assets/scripts.js"></script>
+
+</html>
