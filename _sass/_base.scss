@@ -22,22 +22,22 @@ section {
   }
 }
 p, blockquote {
-  max-width: 670px;
+  max-width: 658px;
   color: $copy-colour;
-  line-height: 1.65;
 }
 h1, h2, h3, h4 {
-  color: #666;
+  font-family: 'Copse', $base-font-family;
+  color: #000;
+  margin: 0;
 }
-h1 {
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 1.4;
+h2 {
+  font-size: 45px;
 }
 p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.6;
-  padding-bottom: 15px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 a {
   text-decoration: none;

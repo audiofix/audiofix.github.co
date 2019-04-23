@@ -2,20 +2,20 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { m
 
 * { box-sizing: border-box; }
 
-body { font-family: "Source Sans Pro", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+body { font-family: "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
 
 img { max-width: 100%; }
 
 section { padding: 45px 15px; }
 @media (min-width: 980px) { section { padding-left: 0; padding-right: 0; } }
 
-p, blockquote { max-width: 670px; color: #525f7f; line-height: 1.65; }
+p, blockquote { max-width: 658px; color: rgba(0, 0, 0, 0.870588); }
 
-h1, h2, h3, h4 { color: #666; }
+h1, h2, h3, h4 { font-family: "Copse", "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; color: #000; margin: 0; }
 
-h1 { font-size: 24px; font-weight: 600; line-height: 1.4; }
+h2 { font-size: 45px; }
 
-p { font-size: 18px; line-height: 1.6; padding-bottom: 15px; }
+p { font-size: 16px; line-height: 1.6; margin-top: 24px; margin-bottom: 24px; }
 
 a { text-decoration: none; color: #63d556; }
 
@@ -33,7 +33,7 @@ ul li { margin-bottom: 15px; }
 @media (min-width: 650px) { .site-header button { display: none; } }
 .site-header nav { display: block; flex: 0 0 100%; padding: 15px 0; border-bottom: 1px solid transparent; }
 @media (min-width: 650px) { .site-header nav { padding: 0; margin: 0; flex: 0 0 74%; display: block; text-align: right; } }
-.site-header nav a, .site-header nav span { display: block; padding: 15px 10px; font-size: 15px; font-weight: normal; text-align: center; text-transform: uppercase; transition: 0.4s ease; }
+.site-header nav a, .site-header nav span { display: block; font-family: "Copse", "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; padding: 15px 10px; font-size: 15px; font-weight: normal; text-align: center; letter-spacing: 1px; transition: 0.4s ease; }
 @media (min-width: 650px) { .site-header nav a, .site-header nav span { color: #fff; font-size: 16px; margin-left: 10px; text-align: left; display: inline; } }
 @media (min-width: 900px) { .site-header nav a, .site-header nav span { font-size: 17px; } }
 .site-header nav .btn { background: green; border-radius: 5px; padding: 10px 20px; margin-bottom: 20px; }
@@ -97,17 +97,14 @@ ul li { margin-bottom: 15px; }
 
 .container { max-width: 1170px; margin: 0px auto; padding: 0 15px; }
 
-.hero { background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(/assets/img/jamie2.jpg) no-repeat left center; background-size: cover; min-height: 400px; display: flex; align-items: center; justify-content: flex-start; margin-top: -100px; }
+.hero { background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(/assets/img/jamie2.jpg) no-repeat left center; background-size: cover; min-height: 400px; display: flex; align-items: center; justify-content: flex-start; margin-top: -100px; }
 @media (min-width: 400px) { .hero { min-height: 320px; background-size: 165%; } }
 @media (min-width: 650px) { .hero { min-height: 500px; background-size: 120%; margin-top: 0; } }
 @media (min-width: 900px) { .hero { min-height: 680px; background-size: 110%; } }
-.hero .opening-speechmarks { display: block; max-width: 50px; margin: 0 20px; }
-.hero .hero-copy { display: none; width: 1140px; max-width: 100%; margin: 0px auto; }
-.hero .hero-copy h1 { color: #fff; text-shadow: 0 0 5px rgba(0, 0, 0, 0.3); }
+.hero .hero-copy { width: 1140px; max-width: 100%; margin: 0px auto; }
+.hero .hero-copy h1 { max-width: 870px; font-family: "Copse", "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; color: #fff; text-shadow: 0 0 10px rgba(0, 0, 0, 0.4); font-size: 56px; }
 @media (min-width: 650px) { .hero .hero-copy { display: flex; align-items: center; } }
-.hero .hero-copy blockquote { width: 100%; color: #fff; padding: 20px 0; font-size: 15px; font-weight: 300; line-height: 1.4; font-style: italic; }
-@media (min-width: 900px) { .hero .hero-copy blockquote { font-size: 24px; } }
-@media (min-width: 1200px) { .hero .hero-copy blockquote { padding-left: 5px; } }
+.hero .hero-cta { border: 2px solid #63d556; padding: 15px 22px; }
 
 #about { padding-top: 60px; }
 #about h1 { padding-bottom: 1em; max-width: 670px; }

@@ -15,7 +15,7 @@
   padding: 0 15px;
 }
 .hero {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.1)), url(/assets/img/jamie2.jpg) no-repeat left center;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.2)), url(/assets/img/jamie2.jpg) no-repeat left center;
   background-size: cover;
   min-height: 400px;
   display: flex;
@@ -35,43 +35,25 @@
     min-height: 680px;
     background-size: 110%;
   };
-  .opening-speechmarks {
-    display: block;
-    max-width: 50px;
-    margin: 0 20px;
-  }
   .hero-copy {
-    display: none;
     width: 1140px;
     max-width: 100%;
     margin: 0px auto;
     h1 {
+      max-width: 870px;
+      font-family: 'Copse', $base-font-family;
       color: #fff;
-      text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+      text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+      font-size: 56px;
     }
     @include for-tablet-portrait-up {
       display: flex;
       align-items: center;
     };
-    @include for-tablet-landscape-up {
-    };
-    @include for-desktop-up {
-    };
-    blockquote {
-      width: 100%;
-      color: #fff;
-      padding: 20px 0;
-      font-size: 15px;
-      font-weight: 300;
-      line-height: 1.4;
-      font-style: italic;
-      @include for-tablet-landscape-up {
-        font-size: 24px;
-      };
-      @include for-desktop-up {
-        padding-left: 5px;
-      };
-    }
+  }
+  .hero-cta {
+    border: 2px solid $brand-color;
+    padding: 15px 22px;
   }
 }
 #about {

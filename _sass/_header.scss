@@ -53,11 +53,12 @@
     }
     a, span {
       display: block;
+      font-family: 'Copse', $base-font-family;
       padding: 15px 10px;
       font-size: 15px;
       font-weight: normal;
       text-align: center;
-      text-transform: uppercase;
+      letter-spacing: 1px;
       transition: 0.4s ease;
       @include for-tablet-portrait-up {
           color: #fff;
