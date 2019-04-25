@@ -110,7 +110,7 @@ ul li { margin-bottom: 15px; }
 @media (min-width: 900px) { .hero .hero-copy { padding: 15px; max-width: 100%; } }
 @media (min-width: 1200px) { .hero .hero-copy { width: 1140px; text-align: left; padding: 0; } }
 .hero .hero-copy h1 { color: #fff; text-shadow: 0 0 10px rgba(0, 0, 0, 0.4); font-size: 22px; margin-bottom: 45px; }
-@media (min-width: 900px) { .hero .hero-copy h1 { max-width: 750px; font-size: 48px; } }
+@media (min-width: 900px) { .hero .hero-copy h1 { max-width: 700px; font-size: 48px; } }
 .hero .hero-copy .hero-cta { display: inline-block; border: 2px solid transparent; border-radius: 4px; color: #fff; padding: 10px 14px; font-size: 16px; background: #1E8B23; margin: 0; transition: 0.4s ease; }
 @media (min-width: 900px) { .hero .hero-copy .hero-cta { padding: 18px 30px; font-size: 18px; } }
 .hero .hero-copy .hero-cta:hover { background: #63d556; }
