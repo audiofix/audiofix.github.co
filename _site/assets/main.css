@@ -44,7 +44,7 @@ ul li { margin-bottom: 15px; }
 
 .scrolled { background-color: white; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15); }
 .scrolled nav a { color: #525f7f; }
-.scrolled nav a:hover { color: #1E8B23; }
+.scrolled nav a:hover { color: #1e8b23; }
 .scrolled nav .btn { color: #fff; }
 
 .hamburger { padding: 15px 15px; display: inline-block; cursor: pointer; transition-property: opacity, filter; transition-duration: 0.15s; transition-timing-function: linear; font: inherit; color: inherit; text-transform: none; background-color: transparent; border: 0; margin: 0; overflow: visible; }
@@ -111,7 +111,7 @@ ul li { margin-bottom: 15px; }
 @media (min-width: 1200px) { .hero .hero-copy { width: 1140px; text-align: left; padding: 0; } }
 .hero .hero-copy h1 { color: #fff; text-shadow: 0 0 10px rgba(0, 0, 0, 0.4); font-size: 22px; margin-bottom: 45px; }
 @media (min-width: 900px) { .hero .hero-copy h1 { max-width: 700px; font-size: 48px; } }
-.hero .hero-copy .hero-cta { display: inline-block; border: 2px solid transparent; border-radius: 4px; color: #fff; padding: 10px 14px; font-size: 16px; background: #1E8B23; margin: 0; transition: 0.4s ease; }
+.hero .hero-copy .hero-cta { display: inline-block; border: 2px solid transparent; border-radius: 4px; color: #fff; padding: 10px 14px; font-size: 16px; background: #1e8b23; margin: 0; transition: 0.4s ease; }
 @media (min-width: 900px) { .hero .hero-copy .hero-cta { padding: 18px 30px; font-size: 18px; } }
 .hero .hero-copy .hero-cta:hover { background: #63d556; }
 .hero .hero-copy .hero-buttons { display: flex; justify-content: center; }
@@ -128,7 +128,7 @@ ul li { margin-bottom: 15px; }
 #jamie .jamie_copy { padding: 30px 10px; background: #f8f8f8; display: flex; align-items: center; justify-content: space-around; }
 @media (min-width: 900px) { #jamie .jamie_copy { padding: 60px 80px; } }
 #jamie .jamie_copy h3 { font-size: 14px; letter-spacing: 0.5px; margin-bottom: 15px; color: #777; }
-#jamie .jamie_copy h2 { margin-top: 0; margin-bottom: 18px; font-size: 38px; color: #1E8B23; }
+#jamie .jamie_copy h2 { margin-top: 0; margin-bottom: 18px; font-size: 38px; color: #1e8b23; }
 #jamie .jamie_img { background: url(/assets/img/jamie1.jpg) no-repeat center center; background-size: cover; }
 
 #service_before { background: url(/assets/img/1210_before.jpg) no-repeat center center; background-size: cover; }
@@ -171,13 +171,13 @@ ul li { margin-bottom: 15px; }
 @media (min-width: 650px) { .card { padding: 20px 10px; } }
 @media (min-width: 900px) { .card { padding: 20px; flex: 0 0 48%; } }
 .card .card_heading { flex: 0; }
-.card .card_heading h2 { font-size: 20px; color: #1E8B23; padding-bottom: 10px; }
-.card .card_heading h3 { font-size: 16px; color: #1E8B23; padding-bottom: 10px; }
+.card .card_heading h2 { font-size: 20px; color: #1e8b23; padding-bottom: 10px; }
+.card .card_heading h3 { font-size: 16px; color: #1e8b23; padding-bottom: 10px; }
 .card .card_copy { flex: 1; }
 .card .card_copy p { font-size: 16px; }
-.card .card_link { flex: 0; margin: 0 0 0 auto; padding: 8px 14px; background: #1E8B23; color: #fff; }
+.card .card_link { flex: 0; margin: 0 0 0 auto; padding: 8px 14px; background: #1e8b23; color: #fff; }
 
-.image-card .card_heading h2 { font-size: 20px; display: inline-block; color: #fff; background: #1E8B23; padding: 10px; }
+.image-card .card_heading h2 { font-size: 20px; display: inline-block; color: #fff; background: #1e8b23; padding: 10px; }
 
 .quote_card { display: flex; justify-content: center; background: #fff; font-size: 22px; line-height: 1.3; font-family: 'Cormorant Garamond', 'Garamond', 'Georgia', serif; font-style: italic; border-top: 1px solid #63d556; border-bottom: 1px solid #63d556; }
 .quote_card p { margin-top: 10px; text-align: right; font-style: normal; }
@@ -186,7 +186,7 @@ ul li { margin-bottom: 15px; }
 
 .contact-card .card_copy p { font-size: 18px; }
 
-.icon_bg { display: inline-block; background: #1E8B23; padding: 10px; width: 45px; border-radius: 5px; margin-left: 30px; transition: 0.4s ease; }
+.icon_bg { display: inline-block; background: #1e8b23; padding: 10px; width: 45px; border-radius: 5px; margin-left: 30px; transition: 0.4s ease; }
 @media (min-width: 900px) { .icon_bg { padding: 15px; width: 64px; } }
 .icon_bg:hover { background: #63d556; }
 
@@ -194,7 +194,7 @@ ul li { margin-bottom: 15px; }
 
 .page-content h1 { color: #666; margin-bottom: 15px; }
 @media (min-width: 650px) { .page-content h1 { font-size: 28px; margin-bottom: 30px; } }
-.page-content h2, .page-content h3 { margin-top: 30px; margin-bottom: 15px; color: #1E8B23; }
+.page-content h2, .page-content h3 { margin-top: 30px; margin-bottom: 15px; color: #1e8b23; }
 .page-content blockquote { margin: 15px 0; padding: 15px 0 0; line-height: 1.3; font-style: italic; border-top: 1px solid #63d556; border-bottom: 1px solid #63d556; }
 .page-content blockquote p { font-size: 20px; }
 .page-content blockquote cite { display: block; font-style: normal; text-align: right; }
