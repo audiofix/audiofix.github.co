@@ -11,10 +11,11 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap-reverse;
-    padding: 20px 15px;
+    padding: 15px 10px;
     transition: 0.3s ease;
-    @include for-tablet-portrait-up {
+    @include for-tablet-landscape-up {
       margin-top: 0;
+      padding: 20px 15px;
     }
   }
   .menu-open {
@@ -25,7 +26,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    @include for-tablet-portrait-up {
+    @include for-tablet-landscape-up {
       flex: 0 0 25%;
     }
   }
@@ -35,7 +36,7 @@
     }
   }
   button {
-    @include for-tablet-portrait-up {
+    @include for-tablet-landscape-up {
       display: none;
     }
   }
@@ -44,7 +45,7 @@
     flex: 0 0 100%;
     padding: 15px 0;
     border-bottom: 1px solid transparent;
-    @include for-tablet-portrait-up {
+    @include for-tablet-landscape-up {
       padding: 0;
       margin: 0;
       flex: 0 0 74%;
@@ -53,22 +54,21 @@
     }
     a, span {
       display: block;
-      font-family: 'Copse', $base-font-family;
+      font-family: $headings-font-family;
       padding: 15px 10px;
       font-size: 15px;
       font-weight: normal;
       text-align: center;
-      letter-spacing: 1px;
       transition: 0.4s ease;
-      @include for-tablet-portrait-up {
-          color: #fff;
-          font-size: 16px;
-          margin-left: 10px;
-          text-align: left;
-          display: inline;
+      @include for-tablet-landscape-up {
+        color: #fff;
+        font-size: 16px;
+        margin-left: 10px;
+        text-align: left;
+        display: inline;
       }
       @include for-tablet-landscape-up {
-          font-size: 17px;
+        font-size: 17px;
       }
     }
     .btn {
@@ -76,12 +76,13 @@
       border-radius: 5px;
       padding: 10px 20px;
       margin-bottom: 20px;
-      @include for-tablet-portrait-up {
+      color: #fff;
+      @include for-tablet-landscape-up {
         margin-bottom: 0;
       }
     }
   }
-  @include for-tablet-portrait-up {
+  @include for-tablet-landscape-up {
     position: fixed;
   }
 }
@@ -102,7 +103,6 @@
 }
 
 // Hamburger with thanks to Jonathon Suh
-
 .hamburger {
   padding: 15px 15px;
   display: inline-block;

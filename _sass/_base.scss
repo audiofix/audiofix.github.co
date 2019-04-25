@@ -15,10 +15,9 @@ img {
   max-width: 100%;
 }
 section {
-  padding: 45px 15px;
-  @media (min-width: 980px){
-    padding-left: 0;
-    padding-right: 0;
+  padding: 30px 0;
+  @include for-tablet-portrait-up {
+    padding: 45px 0;
   }
 }
 p, blockquote {
@@ -26,12 +25,15 @@ p, blockquote {
   color: $copy-colour;
 }
 h1, h2, h3, h4 {
-  font-family: 'Copse', $base-font-family;
+  font-family: $headings-font-family;
   color: #000;
   margin: 0;
 }
 h2 {
-  font-size: 45px;
+  font-size: 24px;
+  @include for-tablet-portrait-up {
+    font-size: 42px;
+  }
 }
 p {
   font-size: 16px;
