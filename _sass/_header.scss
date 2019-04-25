@@ -80,6 +80,9 @@
       @include for-tablet-landscape-up {
         margin-bottom: 0;
       }
+      &:hover {
+        color: #fff;
+      }
     }
   }
   @include for-tablet-landscape-up {
