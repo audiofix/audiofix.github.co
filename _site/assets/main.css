@@ -112,8 +112,8 @@ ul li { margin-bottom: 15px; }
 .hero .hero-copy .hero-cta { display: inline-block; border: 2px solid transparent; border-radius: 4px; color: #fff; padding: 10px 14px; font-size: 16px; background: #1E8B23; margin: 0; transition: 0.4s ease; }
 @media (min-width: 900px) { .hero .hero-copy .hero-cta { padding: 18px 30px; font-size: 18px; } }
 .hero .hero-copy .hero-cta:hover { background: #63d556; }
-.hero .hero-copy ul { padding: 0; margin: 0; list-style: none; }
-.hero .hero-copy ul li { display: inline-block; }
+.hero .hero-copy .hero-buttons { display: flex; justify-content: center; }
+@media (min-width: 1200px) { .hero .hero-copy .hero-buttons { justify-content: flex-start; } }
 
 #about { padding-top: 60px; }
 @media (min-width: 900px) { #about { padding-bottom: 60px; } }
@@ -183,7 +183,8 @@ ul li { margin-bottom: 15px; }
 
 .contact-card .card_copy p { font-size: 18px; }
 
-.icon_bg { display: inline-block; background: #1E8B23; padding: 15px; width: 74px; border-radius: 5px; margin-left: 30px; transition: 0.4s ease; }
+.icon_bg { display: inline-block; background: #1E8B23; padding: 10px; width: 45px; border-radius: 5px; margin-left: 30px; transition: 0.4s ease; }
+@media (min-width: 900px) { .icon_bg { padding: 15px; width: 64px; } }
 .icon_bg:hover { background: #63d556; }
 
 .social_icons { display: block; max-width: 100%; }
