@@ -62,15 +62,29 @@
       }
     }
     .hero-cta {
-      border: 2px solid #fff;
+      display: inline-block;
+      border: 2px solid transparent;
       border-radius: 4px;
       color: #fff;
       padding: 10px 14px;
       font-size: 16px;
-      background: rgba(0,0,0,0.5);
+      background: $brand-color;
+      margin: 0;
+      transition: 0.4s ease;
       @include for-tablet-landscape-up {
         padding: 18px 30px;
         font-size: 18px;
+      }
+      &:hover {
+        background: $tint;
+      }
+    }
+    ul {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      li {
+        display: inline-block;
       }
     }
   }
@@ -292,4 +306,20 @@
       font-size: 18px;
     }
   }
+}
+.icon_bg {
+  display: inline-block;
+  background: $brand-color;
+  padding: 15px;
+  width: 74px;
+  border-radius: 5px;
+  margin-left: 30px;
+  transition: 0.4s ease;
+  &:hover {
+    background: $tint;
+  }
+}
+.social_icons {
+  display: block;
+  max-width: 100%;
 }

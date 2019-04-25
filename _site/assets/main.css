@@ -109,8 +109,11 @@ ul li { margin-bottom: 15px; }
 @media (min-width: 1200px) { .hero .hero-copy { width: 1140px; text-align: left; padding: 0; } }
 .hero .hero-copy h1 { color: #fff; text-shadow: 0 0 10px rgba(0, 0, 0, 0.4); font-size: 22px; margin-bottom: 45px; }
 @media (min-width: 900px) { .hero .hero-copy h1 { max-width: 750px; font-size: 48px; } }
-.hero .hero-copy .hero-cta { border: 2px solid #fff; border-radius: 4px; color: #fff; padding: 10px 14px; font-size: 16px; background: rgba(0, 0, 0, 0.5); }
+.hero .hero-copy .hero-cta { display: inline-block; border: 2px solid transparent; border-radius: 4px; color: #fff; padding: 10px 14px; font-size: 16px; background: #1E8B23; margin: 0; transition: 0.4s ease; }
 @media (min-width: 900px) { .hero .hero-copy .hero-cta { padding: 18px 30px; font-size: 18px; } }
+.hero .hero-copy .hero-cta:hover { background: #63d556; }
+.hero .hero-copy ul { padding: 0; margin: 0; list-style: none; }
+.hero .hero-copy ul li { display: inline-block; }
 
 #about { padding-top: 60px; }
 @media (min-width: 900px) { #about { padding-bottom: 60px; } }
@@ -179,6 +182,11 @@ ul li { margin-bottom: 15px; }
 #contact { border-top: 1px solid #63d556; padding-bottom: 0; }
 
 .contact-card .card_copy p { font-size: 18px; }
+
+.icon_bg { display: inline-block; background: #1E8B23; padding: 15px; width: 74px; border-radius: 5px; margin-left: 30px; transition: 0.4s ease; }
+.icon_bg:hover { background: #63d556; }
+
+.social_icons { display: block; max-width: 100%; }
 
 .page-content h1 { color: #666; margin-bottom: 15px; }
 @media (min-width: 650px) { .page-content h1 { font-size: 28px; margin-bottom: 30px; } }
