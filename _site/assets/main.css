@@ -17,8 +17,9 @@ h2 { font-size: 24px; }
 @media (min-width: 650px) { h2 { font-size: 42px; } }
 
 p { font-size: 16px; line-height: 1.6; margin-top: 24px; margin-bottom: 24px; }
+p a { text-decoration: underline; }
 
-a { text-decoration: none; color: #63d556; }
+a { text-decoration: none; color: #1e8b23; }
 
 ul { margin-left: 30px; margin-bottom: 30px; }
 ul li { margin-bottom: 15px; }
@@ -129,7 +130,8 @@ ul li { margin-bottom: 15px; }
 @media (min-width: 900px) { #jamie .jamie_copy { padding: 60px 80px; } }
 #jamie .jamie_copy h3 { font-size: 14px; letter-spacing: 0.5px; margin-bottom: 15px; color: #777; }
 #jamie .jamie_copy h2 { margin-top: 0; margin-bottom: 18px; font-size: 38px; color: #1e8b23; }
-#jamie .jamie_img { background: url(/assets/img/jamie1.jpg) no-repeat center center; background-size: cover; }
+#jamie .jamie_img { background: url(/assets/img/jamie3.jpg) no-repeat; background-size: cover; background-position: 15%; }
+@media (min-width: 650px) { #jamie .jamie_img { background: url(/assets/img/jamie3.jpg) no-repeat left center; background-size: cover; } }
 
 #service_before { background: url(/assets/img/1210_before.jpg) no-repeat center center; background-size: cover; }
 

@@ -137,8 +137,13 @@
     }
   }
   .jamie_img {
-    background: url(/assets/img/jamie1.jpg) no-repeat center center;
+    background: url(/assets/img/jamie3.jpg) no-repeat;
     background-size: cover;
+    background-position: 15%;
+    @include for-tablet-portrait-up {
+      background: url(/assets/img/jamie3.jpg) no-repeat left center;
+      background-size: cover;
+    };
   }
 }
 #service_before {
