@@ -133,9 +133,9 @@ ul li { margin-bottom: 15px; }
 #jamie .jamie_img { background: url(/assets/img/jamie3.jpg) no-repeat; background-size: cover; background-position: 15%; }
 @media (min-width: 650px) { #jamie .jamie_img { background: url(/assets/img/jamie3.jpg) no-repeat left center; background-size: cover; } }
 
-#service_before { background: url(/assets/img/1210_before.jpg) no-repeat center center; background-size: cover; }
+#service_before { background: url(/assets/img/1210_before.jpg) no-repeat 50% 40%; background-size: cover; }
 
-#service_after { background: url(/assets/img/1210_after.jpg) no-repeat center center; background-size: cover; }
+#service_after { background: url(/assets/img/1210_after.jpg) no-repeat center center; background-size: 100%; }
 
 #repairs, #testimonials { background-color: #f8f8f8; }
 
