@@ -336,11 +336,12 @@
   max-width: 100%;
 }
 .review-deck {
- display: flex;
- flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: baseline;
  @include for-tablet-landscape-up {
    padding-left: 10px;
-   flex-wrap: wrap;
    max-height: 900px;
  }
  @include for-desktop-up {
@@ -349,17 +350,17 @@
  }
 }
 .review-card {
-  max-width: 100%;
+  flex: 0 0 100%;
   border: 1px solid $tint;
   border-radius: 6px;
   margin: 0 14px 14px;
   background: #fff;
   @include for-tablet-landscape-up {
     margin-left: 0px;
-    max-width: 48%;
+    flex: 0 0 48%;
   }
   @include for-desktop-up {
-    max-width: 33%;
+    flex: 0 0 31%;
   }
   .review-header {
     padding: 10px 10px 0px;
@@ -367,17 +368,17 @@
     align-items: center;
     justify-content: space-between;
     .review-photo {
-      max-width: 50px;
+      max-width: 45px;
       margin-right: 10px;
     }
     span {
-      font-size: 14px;
+      font-size: 13px;
       color: #888;
       flex: 1 0 auto;
     }
     .review-icon {
       align-self: flex-start;
-      max-width: 25px;
+      max-width: 20px;
     }
   }
   .review-copy {
