@@ -198,7 +198,7 @@ ul li { margin-bottom: 15px; }
 @media (min-width: 900px) { .review-deck { padding-left: 10px; max-height: 900px; } }
 @media (min-width: 1200px) { .review-deck { margin-left: 0; max-height: 650px; } }
 
-.review-card { flex: 0 0 100%; border: 1px solid #63d556; border-radius: 6px; margin: 0 14px 14px; background: #fff; }
+.review-card { flex: 0 0 97%; border: 1px solid #63d556; border-radius: 6px; margin: 0 14px 14px; background: #fff; }
 @media (min-width: 900px) { .review-card { margin-left: 0px; flex: 0 0 48%; } }
 @media (min-width: 1200px) { .review-card { flex: 0 0 31%; } }
 .review-card .review-header { padding: 10px 10px 0px; display: flex; align-items: center; justify-content: space-between; }
