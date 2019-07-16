@@ -335,3 +335,58 @@
   display: block;
   max-width: 100%;
 }
+.review-deck {
+ display: flex;
+ flex-direction: column;
+ @include for-tablet-landscape-up {
+   padding-left: 10px;
+   flex-wrap: wrap;
+   max-height: 900px;
+ }
+ @include for-desktop-up {
+   margin-left: 0;
+   max-height: 650px;
+ }
+}
+.review-card {
+  max-width: 100%;
+  border: 1px solid $tint;
+  border-radius: 6px;
+  margin: 0 14px 14px;
+  background: #fff;
+  @include for-tablet-landscape-up {
+    margin-left: 0px;
+    max-width: 48%;
+  }
+  @include for-desktop-up {
+    max-width: 33%;
+  }
+  .review-header {
+    padding: 10px 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .review-photo {
+      max-width: 50px;
+      margin-right: 10px;
+    }
+    span {
+      font-size: 14px;
+      color: #888;
+      flex: 1 0 auto;
+    }
+    .review-icon {
+      align-self: flex-start;
+      max-width: 25px;
+    }
+  }
+  .review-copy {
+    padding: 0px 10px;
+    p {
+      font-size: 14px;
+      padding: 0;
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
+  }
+}
